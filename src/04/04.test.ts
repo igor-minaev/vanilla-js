@@ -1,3 +1,4 @@
+
 test('should take old men older then 90', () => {
     const ages = [18, 20, 22, 1, 100, 90, 14]
 
@@ -23,7 +24,7 @@ test('should take cheaper courses then 160', () => {
 
 })
 
-test('get only complited tasks', () => {
+test('get only completed tasks', () => {
     const tasks = [
         {id: 1, title: 'Bread', isDone: false},
         {id: 2, title: 'Milk', isDone: true},
@@ -38,7 +39,7 @@ test('get only complited tasks', () => {
     expect(completedTasks[1].id).toBe(4)
 })
 
-test('get only uncomplited tasks', () => {
+test('get only uncompleted tasks', () => {
     const tasks = [
         {id: 1, title: 'Bread', isDone: false},
         {id: 2, title: 'Milk', isDone: true},
